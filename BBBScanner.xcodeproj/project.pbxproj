@@ -10,9 +10,17 @@
 		CE3DBC562A864DD1003CA796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC552A864DD1003CA796 /* AppDelegate.swift */; };
 		CE3DBC582A864DD1003CA796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC572A864DD1003CA796 /* SceneDelegate.swift */; };
 		CE3DBC5A2A864DD1003CA796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC592A864DD1003CA796 /* ViewController.swift */; };
-		CE3DBC5D2A864DD1003CA796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3DBC5B2A864DD1003CA796 /* Main.storyboard */; };
 		CE3DBC5F2A864DD3003CA796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DBC5E2A864DD3003CA796 /* Assets.xcassets */; };
 		CE3DBC622A864DD3003CA796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3DBC602A864DD3003CA796 /* LaunchScreen.storyboard */; };
+		CE3DBC6B2A864EA0003CA796 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC6A2A864EA0003CA796 /* ScannerViewController.swift */; };
+		CE3DBC6D2A864EA5003CA796 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC6C2A864EA5003CA796 /* ScannerView.swift */; };
+		CE3DBC702A864EB2003CA796 /* ScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC6F2A864EB2003CA796 /* ScannerModel.swift */; };
+		CE3DBC732A864F40003CA796 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC722A864F40003CA796 /* BaseViewController.swift */; };
+		CE3DBC752A864F5F003CA796 /* CodeInitedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC742A864F5F003CA796 /* CodeInitedView.swift */; };
+		CE3DBC7E2A86500C003CA796 /* ScannerOverlayPreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC7D2A86500C003CA796 /* ScannerOverlayPreviewLayer.swift */; };
+		CE3DBC802A86512D003CA796 /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC7F2A86512D003CA796 /* LoadableView.swift */; };
+		CE3DBC832A8655DD003CA796 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE3DBC822A8655DD003CA796 /* SnapKit */; };
+		CE3DBC852A8657A6003CA796 /* MyActivityItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DBC842A8657A6003CA796 /* MyActivityItemSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +28,17 @@
 		CE3DBC552A864DD1003CA796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3DBC572A864DD1003CA796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE3DBC592A864DD1003CA796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE3DBC5C2A864DD1003CA796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE3DBC5E2A864DD3003CA796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3DBC612A864DD3003CA796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3DBC632A864DD3003CA796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3DBC6A2A864EA0003CA796 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		CE3DBC6C2A864EA5003CA796 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		CE3DBC6F2A864EB2003CA796 /* ScannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerModel.swift; sourceTree = "<group>"; };
+		CE3DBC722A864F40003CA796 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CE3DBC742A864F5F003CA796 /* CodeInitedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeInitedView.swift; sourceTree = "<group>"; };
+		CE3DBC7D2A86500C003CA796 /* ScannerOverlayPreviewLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerOverlayPreviewLayer.swift; sourceTree = "<group>"; };
+		CE3DBC7F2A86512D003CA796 /* LoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
+		CE3DBC842A8657A6003CA796 /* MyActivityItemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityItemSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3DBC832A8655DD003CA796 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +75,43 @@
 				CE3DBC552A864DD1003CA796 /* AppDelegate.swift */,
 				CE3DBC572A864DD1003CA796 /* SceneDelegate.swift */,
 				CE3DBC592A864DD1003CA796 /* ViewController.swift */,
-				CE3DBC5B2A864DD1003CA796 /* Main.storyboard */,
+				CE3DBC692A864E93003CA796 /* Scanner */,
+				CE3DBC712A864F31003CA796 /* Helpers */,
 				CE3DBC5E2A864DD3003CA796 /* Assets.xcassets */,
 				CE3DBC602A864DD3003CA796 /* LaunchScreen.storyboard */,
 				CE3DBC632A864DD3003CA796 /* Info.plist */,
 			);
 			path = BBBScanner;
+			sourceTree = "<group>";
+		};
+		CE3DBC692A864E93003CA796 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DBC6A2A864EA0003CA796 /* ScannerViewController.swift */,
+				CE3DBC6C2A864EA5003CA796 /* ScannerView.swift */,
+				CE3DBC6F2A864EB2003CA796 /* ScannerModel.swift */,
+				CE3DBC6E2A864EA9003CA796 /* Views */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		CE3DBC6E2A864EA9003CA796 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DBC7D2A86500C003CA796 /* ScannerOverlayPreviewLayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE3DBC712A864F31003CA796 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DBC722A864F40003CA796 /* BaseViewController.swift */,
+				CE3DBC742A864F5F003CA796 /* CodeInitedView.swift */,
+				CE3DBC7F2A86512D003CA796 /* LoadableView.swift */,
+				CE3DBC842A8657A6003CA796 /* MyActivityItemSource.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +130,9 @@
 			dependencies = (
 			);
 			name = BBBScanner;
+			packageProductDependencies = (
+				CE3DBC822A8655DD003CA796 /* SnapKit */,
+			);
 			productName = BBBScanner;
 			productReference = CE3DBC522A864DD1003CA796 /* BBBScanner.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +161,9 @@
 				Base,
 			);
 			mainGroup = CE3DBC492A864DD1003CA796;
+			packageReferences = (
+				CE3DBC812A8655DD003CA796 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = CE3DBC532A864DD1003CA796 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +180,6 @@
 			files = (
 				CE3DBC622A864DD3003CA796 /* LaunchScreen.storyboard in Resources */,
 				CE3DBC5F2A864DD3003CA796 /* Assets.xcassets in Resources */,
-				CE3DBC5D2A864DD1003CA796 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +190,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3DBC852A8657A6003CA796 /* MyActivityItemSource.swift in Sources */,
 				CE3DBC5A2A864DD1003CA796 /* ViewController.swift in Sources */,
 				CE3DBC562A864DD1003CA796 /* AppDelegate.swift in Sources */,
+				CE3DBC802A86512D003CA796 /* LoadableView.swift in Sources */,
+				CE3DBC752A864F5F003CA796 /* CodeInitedView.swift in Sources */,
+				CE3DBC702A864EB2003CA796 /* ScannerModel.swift in Sources */,
 				CE3DBC582A864DD1003CA796 /* SceneDelegate.swift in Sources */,
+				CE3DBC7E2A86500C003CA796 /* ScannerOverlayPreviewLayer.swift in Sources */,
+				CE3DBC6B2A864EA0003CA796 /* ScannerViewController.swift in Sources */,
+				CE3DBC732A864F40003CA796 /* BaseViewController.swift in Sources */,
+				CE3DBC6D2A864EA5003CA796 /* ScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE3DBC5B2A864DD1003CA796 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE3DBC5C2A864DD1003CA796 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE3DBC602A864DD3003CA796 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,11 +342,12 @@
 				DEVELOPMENT_TEAM = U3F6GCK8HT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BBBScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Ваша камера используется для сканирования штрих и QR кодов";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +371,12 @@
 				DEVELOPMENT_TEAM = U3F6GCK8HT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BBBScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Ваша камера используется для сканирования штрих и QR кодов";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +412,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE3DBC812A8655DD003CA796 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE3DBC822A8655DD003CA796 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3DBC812A8655DD003CA796 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE3DBC4A2A864DD1003CA796 /* Project object */;
 }
